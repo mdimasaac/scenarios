@@ -123,6 +123,7 @@ def main():
         with b2:
             colx = st.selectbox("Pick a Value for x-Axis:", cols_x)
             if len(cols_x) != 0:
+                
                 x = df[colx].values.tolist()
                 
                 # pivot = st.selectbox("choose aggregate function (graph A)",aggfunc)
