@@ -305,7 +305,8 @@ def main():
             )
             st.plotly_chart(fig, use_container_width=True)
     st.write("_____")
-    st.subheader('''Sie haben explorative Datenanalyse durchgeführt. Diskutieren Sie jetzt mit der Gruppe, 
+    st.subheader("Discussion / Conclusion")
+    st.write('''Sie haben explorative Datenanalyse durchgeführt. Diskutieren Sie jetzt mit der Gruppe, 
     welche Maßnahmen das Unternehmen zur Verbesserung der Unternehmenssituation genommen werden können. 
     Erzählen Sie über Ihre Ideen als einen kleinen Vortrag.''')
         
